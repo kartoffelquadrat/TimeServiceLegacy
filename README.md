@@ -16,6 +16,18 @@ The service is primitive. When invoked it only tells you that "*It is about Teat
 
 JavaDoc available [here](https://kartoffelquadrat.github.io/TimeServiceLegacy/eu/kartoffelquadrat/timeservice/package-summary.html).
 
+## Run / Build instructions
+
+ * Direct launch:  
+```bash
+mvn exec:java
+```
+ * JAR launch:  
+```bash
+mvn clean package
+java -jar target/TimeServiceLegacy.jar
+```
+
 ## Contact / Pull Requests
 
 Contact information for bug reports and pull requests:
